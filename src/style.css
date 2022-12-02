@@ -3,23 +3,43 @@
     align-items: center;
     justify-content: center;
 }
+.vertical-container {
+    display: flex;
+    align-items: center;
+}
 .circular_image {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px 30px 30px;
 }
 
 .company_logo {
-    width: 250px; /* you can use % */
+    width: 150px; /* you can use % */
     height: auto;
-    margin: 10px 10px 10px 10px;
+    margin: 20px 50px 20px 50px;
 
 }
 
 .App {
-    background-color: #f4f4f4;
+    background-color: #e0e0ff;
+    font-family: 'Maison Neue', sans-serif;
+    font-weight: 300;
 }
 
 .navbar {
-    background-color: #8080ff;
+    background-color: #a0a0ff;
+    font-family: 'Maison Neue', sans-serif;
+    font-weight: bold;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
 }

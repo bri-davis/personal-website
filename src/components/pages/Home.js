@@ -1,24 +1,42 @@
 import headshot from './images/headshot.jpg';
 import sap_logo from "./images/sap_logo.svg";
 import okta_logo from "./images/okta_logo.svg";
-
+import temple_logo from "./images/temple_logo.svg";
+import central_logo from './images/central_logo.png';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
     return (
     <div>
         <div className='container'>
             <div>
-                <p>Hi, I'm Brian! I am a software engineer in the Greater Philadelphia area who is currently looking for opportunities.</p>
-                <p>I am an alumnus of Temple University with a B.S. in Computer Science and Mathematics. I'm interested in opportunities that combine my knowledge of software engineering, machine learning, and algorithms to solve real-world problems.</p>
+                <p>Hi, I'm Brian! Nice to meet you if we haven't already. I am a software engineer in the Greater Philadelphia area who is currently looking for exciting SWE opportunities.</p>
+                <p>I am an alumnus of Temple University with a B.S. in Computer Science and Mathematics. I am familiar with myriad programming languages and cloud infrastructure. I primarily program in Python and JavaScript right now, but I am comfortable with other languages such as Java and C/C++. I've used various cloud infrastructure for both personal and work projects, but primarily AWS.</p>
+                <p>My best advice is to never stop learning! I like to develop metrics for my goals to track my personal growth. And of course, take breaks, go for hikes, and play games so you don't get burned out.</p>
+                <p>Don't hesitate to reach out! Feel free to contact me using the buttons to the right.</p>
             </div>
-            <img className='circular_image' src={headshot} />
+            <div>
+                <img className='circular_image' src={headshot} />
+                <div className='container'>
+                    <SocialIcon network="mailto" url="brian@bri-davis.com" />
+                    <SocialIcon url="https://linkedin.com/in/bri-davis" />
+                    <SocialIcon url="https://www.github.com/bri-davis" />
+                </div>
+            </div>
         </div>
         <div className='container'>
-            <p>test</p>
+            <p>Places I have worked:</p>
         </div>
         <div className='container'>
             <img className='company_logo' src={okta_logo} />
             <img className='company_logo' src={sap_logo} />
+        </div>
+        <div className='container'>
+            <p>Schools I have attended:</p>
+        </div>
+        <div className='container'>
+            <img className='company_logo' src={temple_logo} />
+            <img className='company_logo' src={central_logo} />
         </div>
     </div>
     )
