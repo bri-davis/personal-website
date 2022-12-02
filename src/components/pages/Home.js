@@ -16,7 +16,7 @@ export default function Home() {
                 <p>Don't hesitate to reach out! Feel free to contact me using the buttons to the right.</p>
             </div>
             <div>
-                <img className='circular_image' src={headshot} alt='profile image' />
+                <img className='circular_image' src={headshot} alt='profile' />
                 <div className='container'>
                     <SocialIcon network="mailto" url="brian@bri-davis.com" />
                     <SocialIcon url="https://linkedin.com/in/bri-davis" />
