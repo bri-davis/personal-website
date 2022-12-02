@@ -16,7 +16,7 @@ export default function Home() {
                 <p>Don't hesitate to reach out! Feel free to contact me using the buttons to the right.</p>
             </div>
             <div>
-                <img className='circular_image' src={headshot} />
+                <img className='circular_image' src={headshot} alt='profile image' />
                 <div className='container'>
                     <SocialIcon network="mailto" url="brian@bri-davis.com" />
                     <SocialIcon url="https://linkedin.com/in/bri-davis" />
@@ -28,15 +28,15 @@ export default function Home() {
             <p>Places I have worked:</p>
         </div>
         <div className='container'>
-            <img className='company_logo' src={okta_logo} />
-            <img className='company_logo' src={sap_logo} />
+            <img className='company_logo' src={okta_logo} alt='logo' />
+            <img className='company_logo' src={sap_logo}alt='logo' />
         </div>
         <div className='container'>
             <p>Schools I have attended:</p>
         </div>
         <div className='container'>
-            <img className='company_logo' src={temple_logo} />
-            <img className='company_logo' src={central_logo} />
+            <img className='company_logo' src={temple_logo} alt='logo' />
+            <img className='company_logo' src={central_logo} alt='logo' />
         </div>
     </div>
     )
