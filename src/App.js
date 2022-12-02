@@ -1,9 +1,8 @@
+import NavbarHeader from "./components/NavbarHeader";
 export default function App() {
   return (
     <div className="App">
-        <p>
-          Hello World!
-        </p>
+        <NavbarHeader/>
     </div>
   );
 }
