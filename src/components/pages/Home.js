@@ -10,15 +10,16 @@ export default function Home() {
     <div>
         <div className='container'>
             <div>
-                <p>Hi, I'm Brian! Nice to meet you if we haven't already. I am a software engineer in the Greater Philadelphia area who is currently looking for exciting SWE opportunities.</p>
-                <p>I am an alumnus of Temple University with a B.S. in Computer Science and Mathematics. I am familiar with myriad programming languages and cloud infrastructure. I primarily program in Python and JavaScript right now, but I am comfortable with other languages such as Java and C/C++. I've used various cloud infrastructure for both personal and work projects, but primarily AWS.</p>
+                <p></p>
+                <p>Hi, I'm Brian! Nice to meet you if we haven't met already. I am a software engineer in the Greater Philadelphia area who is currently looking for exciting SWE opportunities.</p>
+                <p>I am an alumnus of Temple University with a B.S. in Computer Science and Mathematics. I am familiar with a variety of programming languages and cloud infrastructure. I primarily program in Python and JavaScript right now, but I am comfortable with other languages such as Java and C/C++. I have experience with AWS and other cloud infrastructure on both work and personal projects.</p>
                 <p>My best advice is to never stop learning! I like to develop metrics for my goals to track my personal growth. And of course, take breaks, go for hikes, and play games so you don't get burned out.</p>
-                <p>Don't hesitate to reach out! Feel free to contact me using the buttons to the right.</p>
+                <p>If you'd like to chat further, don't hesitate to reach out using the buttons to the right.</p>
             </div>
             <div>
                 <img className='circular_image' src={headshot} alt='profile' />
                 <div className='container'>
-                    <SocialIcon network="mailto" url="brian@bri-davis.com" />
+                    <SocialIcon url="mailto:brian@bri-davis.com" />
                     <SocialIcon url="https://linkedin.com/in/bri-davis" />
                     <SocialIcon url="https://www.github.com/bri-davis" />
                 </div>
@@ -29,7 +30,7 @@ export default function Home() {
         </div>
         <div className='container'>
             <img className='company_logo' src={okta_logo} alt='logo' />
-            <img className='company_logo' src={sap_logo}alt='logo' />
+            <img className='company_logo' src={sap_logo} alt='logo' />
         </div>
         <div className='container'>
             <p>Schools I have attended:</p>

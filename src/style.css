@@ -3,14 +3,11 @@
     align-items: center;
     justify-content: center;
 }
-.vertical-container {
-    display: flex;
-    align-items: center;
-}
+
 .circular_image {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 30px 30px 30px 30px;
 }
 
@@ -25,6 +22,11 @@
     background-color: #e0e0ff;
     font-family: 'Maison Neue', sans-serif;
     font-weight: 300;
+    font-size: large;
+}
+
+.body {
+    background-color: #e0e0ff;
 }
 
 .navbar {
@@ -43,3 +45,7 @@
 .navbar-custom .navbar-nav .nav-link {
     color: white;
 }
+
+body > #root > div {
+    height: 100vh;
+  }
